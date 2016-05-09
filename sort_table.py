@@ -1,3 +1,5 @@
+# python sort_table.py -i Batch2/seq_count_table.txt -o Batch2/seq_count_table_sorted.txt -k -m '^(.+)_S\d+$'
+
 import re
 import argparse
 import textwrap
