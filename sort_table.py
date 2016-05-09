@@ -15,7 +15,6 @@ def my_int(x):
         res = int(x)
     except ValueError:
         pass
-
     return res
 
 parser = argparse.ArgumentParser(formatter_class=CustomFormatter, 
